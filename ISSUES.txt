@@ -1,0 +1,3 @@
+Remove robots
+Change email Generic
+Renove <meta name="robots" content="noindex,follow">

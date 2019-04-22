@@ -1,0 +1,35 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 05:30:59 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:18 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
+ERROR - 2019-01-19 23:51:37 --> Severity: Notice --> Undefined variable: url /home/alexdevg/public_html/projects/ilektrologos/application/modules/frontend/views/templates/gr/footer.php 42
