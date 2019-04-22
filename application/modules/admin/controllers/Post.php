@@ -12,7 +12,6 @@ class Post extends MX_Controller{
 			// redirect them to the login page
 			redirect('/admin/login', 'refresh');
 		}
-    date_default_timezone_set('Europe/Athens');
     $this->load->library('grocery_CRUD');
     $this->load->model('crud/grocery_crud_model');
     $this->load->model('generic_model');
@@ -870,7 +869,7 @@ foreach ($categories as $category) : ?>
                                   <div class="">
                                     <div class=""> <a href="<?= get_url("post_category", $category->post_category_id) ?>"></a></div>
                                   </div>
-                                  <h3 class=""> <a href="<?= get_url("post_category", $category->post_category_id) ?>" ><?php $category->post_category_name ?></a> </h3>
+                                  <h3 class=""> <a href="<?= get_url("post_category", $category->post_category_id) ?>" ><?= $category->post_category_name ?></a> </h3>
                                 </header>
                                 <div class="">
                                   <p><?= $category->post_category_meta_description ?></p>
