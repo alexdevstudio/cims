@@ -35,15 +35,20 @@ class Post extends MX_Controller{
   }
 public function post_type($post_type_id){
     $crud = new grocery_CRUD();
+    $post_type = $this->post_model->getPostType($post_type_id);
+    if($post_type){
+      $post_type_name = ' - '.$post_type->post_type_name;
+    }
+
     $crud->where('post_type', $post_type_id);
     $crud->set_table('posts');
     $crud->set_theme('datatables');
-    $crud->set_subject('Post');
+    $crud->set_subject('Post'.$post_type_name);
 
   //Custom fields for edit form
   $fields =  [    'post_id',
                   'post_language',
-                  'post_type',
+                //  'post_type',
                   'post_title',
                   'post_link',
                   'post_text',
@@ -122,7 +127,7 @@ public function post_type($post_type_id){
     }
 
 
-    $crud->columns(['post_id', 'post_image','post_type', 'post_language','post_title', 'post_link',  'post_created_at', 'post_author', 'post_index']);
+    $crud->columns(['post_id', 'post_image','post_language','post_title', 'post_link',  'post_created_at', 'post_author', 'post_index']);
     $crud->required_fields('post_title','post_link','post_language','post_type');
     $crud->unset_texteditor('post_title','post_link','post_meta_title','post_meta_description','post_meta_keywords','og_meta_title','og_meta_description');
     $crud->callback_column('post_title', array($this, '_full_text'));
@@ -130,6 +135,7 @@ public function post_type($post_type_id){
 
     $crud->field_type('post_title', 'input');
     $crud->field_type('post_link', 'input');
+    $crud->field_type('post_type', 'hidden', $post_type_id);
 
     $categories = $this->generic_model->getCategories();
     $categories_array = [];
@@ -144,7 +150,7 @@ public function post_type($post_type_id){
 
 
     $crud->set_relation('post_language', 'languages', 'language_name');
-    $crud->set_relation('post_type', 'post_types', 'post_type_name');
+    //$crud->set_relation('post_type', 'post_types', 'post_type_name');
     $crud->set_relation('og_meta_image', 'media', 'media_name', ['media_type'=>'image']);
 
     $crud->field_type('post_updated_at', 'invisible');
@@ -176,7 +182,7 @@ public function post_type($post_type_id){
 
 
     $output = $crud->render();
-    $output->title = "Posts";
+    $output->title = "Posts".$post_type_name;
 
     $this->load->view('templates/header', $output);
     $this->load->view('default_inner_grocery');
@@ -438,7 +444,9 @@ public function view_post($primary_key, $post){
       $post_arr['post_updated_at'] = date("Y-m-d H:i:s");
 
       $post_arr = $this->indexPost($post_arr);
-
+      echo "<pre>";
+        print_r( $post_arr ); 
+      echo "</pre>";
 
       return $post_arr;
   }
