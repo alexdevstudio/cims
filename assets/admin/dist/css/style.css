@@ -2,7 +2,10 @@
   cursor: pointer;
   color: #0cabde;
 }
-
+.dataTable .actions a {
+    display: block;
+    margin-bottom: 5px;
+}
 .main-header .logo-mini img,
 .main-header .logo-lg img{
   max-height: 50px;
