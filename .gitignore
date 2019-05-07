@@ -1,7 +1,6 @@
 /template
 /workingfiles
 /db_files
-/system
 /application/config/database.php
 *.json
 *.xls
